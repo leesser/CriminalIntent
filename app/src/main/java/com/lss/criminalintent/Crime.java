@@ -11,8 +11,19 @@ public class Crime {
     private String mTitle;
     private Date mData;
     private boolean mSolved;
+    private String mSuspect;
+
+    public void setSuspect(String mSuspect) {
+        this.mSuspect = mSuspect;
+    }
+
+    public String getSuspect() {
+
+        return mSuspect;
+    }
 
     public Date getData() {
+
         return mData;
     }
 
@@ -42,11 +53,17 @@ public class Crime {
         this.mTitle = mTitle;
     }
 
-    public Crime() {
+    public String getPhotoFilename() {
+        return "IMG_" + getId().toString() + ".jpg";
+    }
 
-        //生成唯一标识符
-        mId = UUID.randomUUID();
+    public Crime(UUID id){
+        mId = id;
         mData=new Date();
+    }
+    public Crime() {
+        //生成唯一标识符
+        this(UUID.randomUUID());
 
     }
 }
