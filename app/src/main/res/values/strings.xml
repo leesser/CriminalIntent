@@ -1,23 +1,23 @@
 <resources>
     <string name="app_name">CriminalIntent</string>
     <string name="action_settings">Settings</string>
-    <string name="crime_title_hint">请输入犯罪的行为</string>
+    <string name="crime_title_hint">请输入违纪的行为</string>
     <string name="crime_title_label">标题</string>
     <string name="crime_details_label">详细信息</string>
     <string name="crime_solved_label">解决</string>
-    <string name="date_picker_title">犯罪日期:</string>
-    <string name="new_crime">新建犯罪</string>
-    <string name="delete_crime">删除犯罪</string>
+    <string name="date_picker_title">违纪日期:</string>
+    <string name="new_crime">新建违纪</string>
+    <string name="delete_crime">删除违纪</string>
     <string name="show_subtitle">显示条数</string>
     <string name="hide_subtitle">隐藏条数</string>
     <string name="subtitle_format">%1$s crimes</string>
-    <string name="crime_suspect_text">选择犯罪嫌疑人</string>
-    <string name="crime_report_text">发送犯罪报告</string>
-    <string name="crime_report">%1$s! 犯罪被发现的时间是 %2$s. %3$s, 和 %4$s</string>
+    <string name="crime_suspect_text">选择违纪人</string>
+    <string name="crime_report_text">发送违纪报告</string>
+    <string name="crime_report">%1$s! 违纪被发现的时间是 %2$s. %3$s, 和 %4$s</string>
     <string name="crime_report_solved">案件已破</string>
     <string name="crime_report_unsolved">案件未破</string>
-    <string name="crime_report_no_suspect">没有发现可疑的人.</string>
+    <string name="crime_report_no_suspect">没有发现违纪的人.</string>
     <string name="crime_report_suspect">犯罪嫌疑人是 %s.</string>
-    <string name="crime_report_subject">CriminalIntent的犯罪报告 </string>
-    <string name="send_report">发送犯罪报告通过</string>
+    <string name="crime_report_subject">CriminalIntent的违纪报告 </string>
+    <string name="send_report">发送违纪报告通过</string>
 </resources>
